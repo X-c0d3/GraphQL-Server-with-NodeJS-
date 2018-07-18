@@ -32,7 +32,7 @@ app.use('/graphiql', graphqlMiddleware({
     graphiql: true
 }));
 
-// API routes
+// REST API For test
 // app.use('/api/workspace', workspaceRouter);
 // app.use(defaultRouter);
 

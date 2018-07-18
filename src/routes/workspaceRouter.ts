@@ -2,6 +2,8 @@ import * as express from 'express';
 import Workspace from '../models/workspace';
 const workspaceRouter = express.Router();
 
+// For TEST REST API
+
 // Get All workspace && Save workpace from MongoDB
 workspaceRouter.route('/')
     .get((req, res) => {
